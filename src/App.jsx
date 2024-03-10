@@ -1,9 +1,10 @@
-import { useState } from "react";
+// import Formulario from "./components/formulario/Formulario";
+import Registro from "./components/registro/Registro";
 
 function App() {
   return (
     <>
-      <h1>Preparando desafio 2</h1>
+      <Registro />
     </>
   );
 }
