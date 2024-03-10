@@ -45,39 +45,3 @@ const Registro = () => {
 };
 
 export default Registro;
-
-// import { useState } from "react";
-// import {
-//   faFacebook,
-//   faLinkedinIn,
-//   faGithub,
-// } from "@fortawesome/free-brands-svg-icons";
-// import SocialButton from "../socialButton/SocialButton";
-// import Formulario from "../formulario/Formulario";
-// import Alert from "../alert/Alert";
-
-// const Registro = () => {
-//   const [mensajeAlerta, setMensajeAlerta] = useState("");
-//   const [tipoAlerta, setTipoAlerta] = useState("");
-
-//   const handleSuccess = (message) => {
-//     setMensajeAlerta(message);
-//     setTipoAlerta("success");
-//   };
-
-//   const handleError = (message) => {
-//     setMensajeAlerta(message);
-//     setTipoAlerta("danger");
-//   };
-
-//   return (
-//     <div>
-//       <h1>Registro alllffff refreshhhh holaaa ctm</h1>
-//       <SocialButton icon1={faFacebook} icon2={faLinkedinIn} icon3={faGithub} />
-//       {/* <Formulario onSuccess={handleSuccess} onError={handleError} /> */}
-//       {/* <Alert mensaje={mensajeAlerta} tipo={tipoAlerta} /> */}
-//     </div>
-//   );
-// };
-
-// export default Registro;
